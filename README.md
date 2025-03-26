@@ -6,6 +6,12 @@ If you **don't** want to run migrations (`npx prisma migrate dev`), you have two
 
 ---
 
+✔ Installed Prisma Client:
+
+```sh
+npm install @prisma/client
+```
+
 ### **✅ Option 1: Use `prisma db push` Instead of Migrations**
 If you want to sync your schema without using migrations, run:
 
@@ -43,7 +49,7 @@ Your app should now work with **MySQL** without running migrations. 🎯
 
 To use Prisma with migrations, follow these steps:
 
-✔ Reinstalled Prisma Client:
+✔ Installed Prisma Client:
 
 ```sh
 npm install @prisma/client
